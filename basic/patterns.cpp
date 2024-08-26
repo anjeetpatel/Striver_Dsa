@@ -41,6 +41,10 @@ void NumericTriangle(int n){
     cout << endl;
 }
 
+void NumericTriangle2(int n){
+    for (int i=1;)
+}
+
 int main(){
     int n;
     cin>>n;
