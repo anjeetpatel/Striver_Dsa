@@ -38,7 +38,21 @@ void NumericTriangle(int n){
 }
 
 void NumericTriangle2(int n){
-    // for (int i=1;)
+    for (int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            cout<<i;
+        }
+        cout<<endl;
+    }
+}
+
+void InvertedStarPattern(int n){
+    for(int i=1;i<=n;i++){
+        for(int j=0;j<n-i+1;j++){
+            cout<<"* ";
+        }
+        cout<<endl;
+    }
 }
 
 int main(){
@@ -49,4 +63,8 @@ int main(){
     TrianglePattern(n);
 
     NumericTriangle(n);
+
+    NumericTriangle2(n);
+
+    InvertedStarPattern(n);         
 }
