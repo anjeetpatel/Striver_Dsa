@@ -5,28 +5,25 @@ void SqaurePattern(int n){
     // square pattern
     for (int i = 0; i < n; i++)
     {
-        cout << "*";
-        for (int j = 1; j < n; j++)
+        
+        for (int j = 0; j < n; j++)
         {
-            cout << "*";
+            cout << "*"; 
         }
         cout << endl;
     }
-    cout << endl;
 }
 
 void TrianglePattern(int n){
     // traingle pattern
     for (int i = 0; i < n; i++)
     {
-        cout << "*";
-        for (int j = 0; j < i; j++)
+        for (int j = 0; j <= i; j++)
         {
             cout << "*";
         }
         cout << endl;
     }
-    cout << endl;
 }
 
 void NumericTriangle(int n){
@@ -38,11 +35,10 @@ void NumericTriangle(int n){
         }
         cout << endl;
     }
-    cout << endl;
 }
 
 void NumericTriangle2(int n){
-    for (int i=1;)
+    // for (int i=1;)
 }
 
 int main(){
